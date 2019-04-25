@@ -79,5 +79,3 @@ class Test_login:
         assertion.assert_code(login_resp.status_code, 200)
 
         assertion.assert_in_text(resp_dict['message'], msg)
-
-
